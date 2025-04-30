@@ -1,14 +1,14 @@
 import tkinter as tk
 
 # Cores
-BG_COLOR = "#1e1e1e"
-BTN_COLOR = "#333333"
-BTN_TEXT = "#ffffff"
-BTN_HOVER = "#444444"
-BTN_ACTIVE = "#555555"
-ENTRY_BG = "#2c2c2c"
-HIST_BG = "#2a2a2a"
-HIST_TEXT = "#cccccc"
+BG_COLOR = "#5F9EA0"
+BTN_COLOR = "#A0C2C4"
+BTN_TEXT =  "#FFFFFF"
+BTN_HOVER = "#F5FFFA"
+BTN_ACTIVE = "#F5FFFA"
+ENTRY_BG = "#1e1e1e"
+HIST_BG = "#A0C2C4"
+HIST_TEXT = "#FFFFFF"
 
 FONT = ("Helvetica", 18)
 HIST_FONT = ("Consolas", 12)
@@ -48,7 +48,7 @@ def on_leave(e):
 
 # Janela
 janela = tk.Tk()
-janela.title("🖤 Calculadora com Histórico")
+janela.title("Calculadora com Histórico")
 janela.configure(bg=BG_COLOR)
 janela.resizable(False, False)
 
@@ -102,7 +102,7 @@ botao_limpar = tk.Button(
     text="C",
     command=limpar,
     font=FONT,
-    bg="#cc3333",
+    bg="#B0D4E4",
     fg="white",
     activebackground="#ff4444",
     activeforeground="white",
